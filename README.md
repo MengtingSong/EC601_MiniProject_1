@@ -15,21 +15,21 @@ A high-level architecture structure of this project:
 ## Twitter Frameworks (Mengting)
 The Twitter part will be completed via using the "TwitterSearch" (and other) library to call the "Search Tweets" API with certain keywords. Useful links are listed as below:
 
-Twitter libs (Python):
+* Twitter libs (Python):
 https://developer.twitter.com/en/docs/developer-utilities/twitter-libraries
+
 TwitterSearch: This library allows you easily create a search through the Twitter API without having to know too much about the API details. Based on such a search you can even iterate throughout all tweets reachable via the Twitter Search API. 
 https://github.com/ckoepp/TwitterSearch
 
-Useful APIs:
+* Useful APIs:
+
 GET trends/place: Returns the top 50 trending topics for a specific WOEID, if trending information is available for it. (Or GET trends/closest)
 https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place
+
 Search Tweets: This search API searches against a sampling of recent Tweets published in the past 7 days. Part of the 'public' set of APIs.
 https://developer.twitter.com/en/docs/tweets/search/guides/standard-operators
 
-Response format
-
 ## Google Frameworks (Shiyang)
-
 Setting up the development environment:
 https://cloud.google.com/python/setup
 
