@@ -10,4 +10,5 @@ We came up with 6 user stories for now and will select one later:
   I, as a government official, wants to know the public sentiment fluctuation after some public emergency happened and it can help me to make the responses or take some action in the right time.
   
 ## Architecture:
-![image text](
+A high-level architecture structure of this project:
+![image text](https://github.com/MengtingSong/EC601_MiniProject_1/blob/master/601_mini1_architecture_v1.png)
