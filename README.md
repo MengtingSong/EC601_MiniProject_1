@@ -6,6 +6,9 @@ In this project, we want to give users recommendations of the most popular trave
 ## Users/Customers:
 The project can benefit anyone who currently has a plan of traveling or want to get information for certain traveling spots.
 
+## User Stories:
+
+
 ## Architecture:
 ![image text](https://github.com/MengtingSong/EC601_MiniProject_1/blob/master/601_mini1_architecture_v2.png)
 
