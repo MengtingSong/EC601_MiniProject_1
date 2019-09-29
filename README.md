@@ -7,11 +7,14 @@ In this project, we want to know about what are the most welcome cities in the U
 
 ## Users/Customers:
 The project can benefit anyone who currently has a plan of traveling or want to get information for certain traveling cities in the US. 
+
 It can also provide information to traveling agencies like which cities are most and least welcome to help them design tourism products, for example, they can use this infomation in advertisement or arrange more trips to the most welcome cities.
 
 ## User Stories:
 I, as a user, want to know what are the most welcome cities in the US for a short trip.
+
 I, as a foreigner newly arrived at the US, want to know that which cities I should start with for traveling so that I can get the best experience within the limited time.
+
 I, as a travelling agnecy, want to know the popularity rank of the popular US cities, so that I can arrange tourism products accordingly.
 
 ## Architecture:
