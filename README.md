@@ -24,9 +24,7 @@ I, as a travelling agnecy, want to know the popularity rank of the popular US ci
 Firstly, we "The 25 Best U.S. Cities to Spend a Weekend" updated by THRILLIST TRAVEL on 05/07/2019 (https://www.thrillist.com/travel/nation/best-us-cities-to-spend-a-weekend-nashville-austin-charleston-providence)
 
 Then, we extracted the related tweets by setting up certain filters and keywords.
-2. Output text content of the tweets as input for Google NLP.
-3. Use Google NLP tools for the sentiment analysis.
-4. Display analysis result in a top-down rank.
+We put each city's comments in a separate file so that we can process the use's sentiments city by city. In the language process program, we read the txt file one by one and use the google NLP api to process them. After we get the sentiment scores and magnitudes from google services, we save this data into a list and sort these cities by considering both the sentiment scores and magnitudes. Finally we save the result into a txt file and display analysis result in a top-down rank.
 
 ## Issues:
 
