@@ -18,10 +18,10 @@ for city in cities:
         tso.set_include_entities(False)
 
         ts = TwitterSearch(
-            consumer_key='8yGtUM7QkEk1Vwb41zOqU1nCH',
-            consumer_secret='O15smsrSgrUTA4CJcNnlUjAkwxOS5hrwMVilJGdn5itAKXD3mr',
-            access_token='1174392719352848384-yHcAA74ysEXn1qrNkcxf5YTQWM2RVn',
-            access_token_secret='Vlq4ETUAH4KL8GbqPDip7qEoYqu77BCNDKWMMzfNvM31N'
+            consumer_key='aaabbb',
+            consumer_secret='cccddd',
+            access_token='112233',
+            access_token_secret='445566'
         )
 
         def my_callback_closure(current_ts_instance):  # accepts ONE argument: an instance of TwitterSearch
