@@ -3,7 +3,7 @@
 ## How to run our code?
 - Firstly, open TravelTweets.py. Replace the consumer_key, consumer_secret, access_token, access_token_secret with your own keys;
 - Run $ python TravelTweets.py;
-- Set up Google environment;
+- Set up Google environment and install Google API(https://github.com/googleapis/google-api-python-client);
 - Wait for the process done. You should see a new folder named "result" created containing 25 text files titled with city names;
 - After the folder is successfully created, run $ python languageprocess.py;
 - Then you will get a text file named "result.txt" containing a list of 10 cities.
@@ -36,5 +36,5 @@ In the language process program, we read the txt file one by one and use the goo
 ## Issues:
 The biggest issue is the extracted tweets are quite un-organized and contains a lot of unrelated, trivial or misleading information, for example, some tweets are from traveling agencies or advertisers which will bias the final result. Besides, the total amount of tweets data is too small for a reliable result. To solve this problem, getting some priori knowledge of the tweets publishers and trying to eliminate those irrelevant ones out by setting up filters, also running analysis on the tweets of larger amount and over longer period may be helpful.
 
-
+In language process module, we decided to classify and calculate the sentiment score all by NlP api. However, we found it is really hard to classify the sentences, so we classify these sentences before input them into google api. We created several files and used the cities as their names. Each file saves all comments about one city. So, we can simply process the commments file by file. 
 
