@@ -1,51 +1,33 @@
 # EC601_MiniProject_1
 
-## User Stories
-We came up with 6 user stories for now and will select one later:
-* I, as an airplane company/travel agency, wants to know what are the top 20 popular travelling cities recently.
-* I, as a car manufacturer, wants to know what are the 10 most and 10 least popular cars and top 10 factors twitter users * I, as Coca-Cola or any other company, wants to know the top 20 keywords that people are also talking about when they are talking about Coca-Cola/or other brand.
-* I, as a sports club manager, wants to know the popularity of each sports star in my club and be able to know the amount I should prepare for different star’s peripheral products.
-* I, as a cell phone product manager, wants to know the new features of our software or hardware are beloved by customers or not, so we can decide whether we keep or abandon the new feature in our next product.
-* I, as a government official, wants to know the public sentiment fluctuation after some public emergency happened and it can help me to make the responses or take some action in the right time.
-  
+## How to run our code?
+
+## Vision/Goals of the project:
+In this project, we want to know about what are the most welcome cities in the US for a short trip by implenmenting analysis of the tweets. We will give a list of cities ranked from the most positive to the most negative (or least positive) in the overall sentiment of all related text tweet content.
+
+## Users/Customers:
+The project can benefit anyone who currently has a plan of traveling or want to get information for certain traveling cities in the US. 
+
+It can also provide information to traveling agencies like which cities are most and least welcome to help them design tourism products, for example, they can use this infomation in advertisement or arrange more trips to the most welcome cities.
+
+## User Stories:
+I, as a user, want to know what are the most welcome cities in the US for a short trip.
+
+I, as a foreigner newly arrived at the US, want to know that which cities I should start with for traveling so that I can get the best experience within the limited time.
+
+I, as a travelling agnecy, want to know the popularity rank of the popular US cities, so that I can arrange tourism products accordingly.
+
 ## Architecture:
-A high-level architecture structure of this project:
-![image text](https://github.com/MengtingSong/EC601_MiniProject_1/blob/master/601_mini1_architecture_v1.png)
+![image text](https://github.com/MengtingSong/EC601_MiniProject_1/blob/master/601_mini1_architecture_v2.png)
 
-## Twitter Frameworks (Mengting)
-The Twitter part will be completed via using the "TwitterSearch" (and other) library to call the "Search Tweets" API with certain keywords. Useful links are listed as below:
+## Solutions:
+Firstly, we "The 25 Best U.S. Cities to Spend a Weekend" updated by THRILLIST TRAVEL on 05/07/2019 (https://www.thrillist.com/travel/nation/best-us-cities-to-spend-a-weekend-nashville-austin-charleston-providence)
 
-* Twitter libs (Python):
-https://developer.twitter.com/en/docs/developer-utilities/twitter-libraries
+Then, we extracted the related tweets by setting up certain filters and keywords.
+2. Output text content of the tweets as input for Google NLP.
+3. Use Google NLP tools for the sentiment analysis.
+4. Display analysis result in a top-down rank.
 
-TwitterSearch: This library allows you easily create a search through the Twitter API without having to know too much about the API details. Based on such a search you can even iterate throughout all tweets reachable via the Twitter Search API. 
-https://github.com/ckoepp/TwitterSearch
+## Issues:
 
-* Useful APIs:
 
-GET trends/place: Returns the top 50 trending topics for a specific WOEID, if trending information is available for it. (Or GET trends/closest)
-https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place
-
-Search Tweets: This search API searches against a sampling of recent Tweets published in the past 7 days. Part of the 'public' set of APIs.
-https://developer.twitter.com/en/docs/tweets/search/guides/standard-operators
-
-## Google Frameworks (Shiyang)
-Setting up the development environment:
-https://cloud.google.com/python/setup
-
-How-to Guides:
-  https://cloud.google.com/natural-language/docs/how-to
-  Including four functions:
-  Analyzing Sentiment
-  https://cloud.google.com/natural-language/docs/analyzing-sentiment
-  Analyzing Entities
-  https://cloud.google.com/natural-language/docs/analyzing-entities
-  Analyzing Entity Sentiment
-  https://cloud.google.com/natural-language/docs/analyzing-entity-sentiment
-  Analyzing Syntax
-  https://cloud.google.com/natural-language/docs/analyzing-syntax
-  Classifying Content
-  https://cloud.google.com/natural-language/docs/classifying-text
-
-Analysis Tutorial
-  https://cloud.google.com/natural-language/docs/sentiment-tutorial
