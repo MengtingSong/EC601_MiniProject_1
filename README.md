@@ -1,16 +1,12 @@
 # EC601_MiniProject_1
 
 ## How to run our code?
-Firstly, open TravelTweets.py. Replace the consumer_key, consumer_secret, access_token, access_token_secret with yours.
-
-Run $ python TravelTweets.py;
-
-Set up Google environment;
-
-Wati for the process done. You should see a new folder named "result" created containing 25 text files titled with city names;
-After the folder is successfully created, run $ python languageprocess.py;
-
-Then you will get a text file named "result.txt" containing a list of 10 cities.
+- Firstly, open TravelTweets.py. Replace the consumer_key, consumer_secret, access_token, access_token_secret with yours.
+- Run $ python TravelTweets.py;
+- Set up Google environment;
+- Wait for the process done. You should see a new folder named "result" created containing 25 text files titled with city names;
+- After the folder is successfully created, run $ python languageprocess.py;
+- Then you will get a text file named "result.txt" containing a list of 10 cities.
 
 ## Vision/Goals of the project:
 In this project, we want to know about what are the most welcome cities in the US for a short trip by implenmenting analysis of the tweets. We will give a list of cities ranked from the most positive to the most negative (or least positive) in the overall sentiment of all related text tweet content.
