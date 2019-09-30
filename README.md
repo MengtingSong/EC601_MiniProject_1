@@ -2,10 +2,14 @@
 
 ## How to run our code?
 Firstly, open TravelTweets.py. Replace the consumer_key, consumer_secret, access_token, access_token_secret with yours.
+
 Run $ python TravelTweets.py;
+
 Set up Google environment;
+
 Wati for the process done. You should see a new folder named "result" created containing 25 text files titled with city names;
 After the folder is successfully created, run $ python languageprocess.py;
+
 Then you will get a text file named "result.txt" containing a list of 10 cities.
 
 ## Vision/Goals of the project:
@@ -35,4 +39,6 @@ In the language process program, we read the txt file one by one and use the goo
 
 ## Issues:
 The biggest issue is the extracted tweets are quite un-organized and contains a lot of unrelated, trivial or misleading information, for example, some tweets are from traveling agencies or advertisers which will bias the final result. Besides, the total amount of tweets data is too small for a reliable result. To solve this problem, getting some priori knowledge of the tweets publishers and trying to eliminate those irrelevant ones out by setting up filters, also running analysis on the tweets of larger amount and over longer period may be helpful.
+
+
 
