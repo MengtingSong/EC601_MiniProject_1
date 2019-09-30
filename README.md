@@ -1,7 +1,7 @@
 # EC601_MiniProject_1
 
 ## How to run our code?
-- Firstly, open TravelTweets.py. Replace the consumer_key, consumer_secret, access_token, access_token_secret with yours.
+- Firstly, open TravelTweets.py. Replace the consumer_key, consumer_secret, access_token, access_token_secret with your own keys;
 - Run $ python TravelTweets.py;
 - Set up Google environment;
 - Wait for the process done. You should see a new folder named "result" created containing 25 text files titled with city names;
