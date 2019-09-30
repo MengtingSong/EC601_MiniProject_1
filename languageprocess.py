@@ -37,7 +37,7 @@ for i in range(0,filenum):
 sortedsequence=sorted(sequence.items(), key=lambda x: x[1],reverse=True)
 b = [i[0] for i in sortedsequence]
 #a =[i[1] for i in sortedsequence]
-result=open('/Users/jackhu/Projects/GCP1/result.txt','a')
+result=open('result.txt','a')
 result.write('Top 10 US cities most welcome on Twitter for a short trip'+'\n')
 for n in range(0,10):
     result.write (str(n+1)+'.'+b[n]+'\n')
