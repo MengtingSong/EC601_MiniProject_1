@@ -11,7 +11,7 @@ sequence={}
 M=0
 for i in range(0,filenum):
     filename=filelist[i]
-    review_file=os.path.join('/Users/jackhu/Projects/GCP1/test_file',filename)
+    review_file=os.path.join('test_file',filename)
     name=(os.path.splitext(filename)[0])
     with open(review_file, 'r') as review_file:
 # Instantiates a plain text document.
