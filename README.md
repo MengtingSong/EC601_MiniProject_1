@@ -8,7 +8,7 @@
 - After the folder is successfully created, run $ python languageprocess.py;
 - Then you will get a text file named "result.txt" containing a list of 10 cities.
 
-## Vision/Goals of the project:
+## Product Mission:
 In this project, we want to know about what are the most welcome cities in the US for a short trip by implenmenting analysis of the tweets. We will give a list of cities ranked from the most positive to the most negative (or least positive) in the overall sentiment of all related text tweet content.
 
 ## Users/Customers:
@@ -22,6 +22,9 @@ I, as a user, want to know what are the most welcome cities in the US for a shor
 I, as a foreigner newly arrived at the US, want to know that which cities I should start with for traveling so that I can get the best experience within the limited time.
 
 I, as a travelling agnecy, want to know the popularity rank of the popular US cities, so that I can arrange tourism products accordingly.
+
+## MVP
+The project will sort out the top 10 most favored US cities for a short trip using google sentiment analysis on the popular and real-time related Tweets.
 
 ## Architecture:
 ![image text](https://github.com/MengtingSong/EC601_MiniProject_1/blob/master/601_mini1_architecture_v2.png)
@@ -38,3 +41,11 @@ The biggest issue is the extracted tweets are quite un-organized and contains a 
 
 In language process module, we decided to classify and calculate the sentiment score all by NlP api. However, we found it is really hard to classify the sentences, so we classify these sentences before input them into google api. We created several files and used the cities as their names. Each file saves all comments about one city. So, we can simply process the commments file by file. 
 
+## Lessons learned
+- What you liked doing?
+  I liked to adjust the filters
+
+- What you could have done better?
+  
+
+- What you will avoid in the future?
