@@ -43,9 +43,10 @@ In language process module, we decided to classify and calculate the sentiment s
 
 ## Lessons learned
 - What you liked doing?
-  I liked to adjust the filters
+  I liked to study all the API functions provided by Twitter, which gave me a lot of initial thinking of the possible usage of Tweets analysis and methods of improve the analysis accuracy.
 
 - What you could have done better?
-  
-
+  I could try to combine more Twitter API functions rather than just TweetSearch to get better raw Tweet data.
+ 
 - What you will avoid in the future?
+  We should build up runnable code withouth considering too many details and run tests as early as possible to find out problems/issues unexpected. This time, we had to change our methods from running "Entity Analysis" (Identify entities within documents and label them by types such as date, person, locations)on Tweets with "#travel" and identifying all locations included and ranking them by frenquency. However, we found out that the "location" keywords extracted by this analysis tool were not just city names but also contained too many location-related words like "home", "site", etc.. Thus, in the end we have to change our methods and re-wrote code.
